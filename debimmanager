@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DEPROJECTS | BIM Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #111;
+      color: #f4f4f4;
+      scroll-behavior: smooth;
+    }
+    header, section {
+      padding: 60px 10%;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #333;
+    }
+    nav a {
+      color: #aaa;
+      margin-left: 20px;
+      text-decoration: none;
+    }
+    nav a:hover {
+      color: #fff;
+    }
+    h1, h2 {
+      margin-bottom: 10px;
+    }
+    .video-section video {
+      width: 100%;
+      max-width: 900px;
+      border: 1px solid #444;
+    }
+    .pdf-preview {
+      width: 100%;
+      height: 600px;
+      border: 1px solid #444;
+    }
+    .skills, .contact {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    footer {
+      text-align: center;
+      padding: 30px;
+      font-size: 14px;
+      color: #666;
+      border-top: 1px solid #333;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div>
+      <img src="logo.png" alt="DEPROJECTS Logo" style="height: 50px;" />
+    </div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#video">Video</a>
+      <a href="#pdf">Portfolio</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h1>Deivis Escalante</h1>
+    <p>Freelance BIM specialist with over 10 years of experience delivering Revit models, construction documentation, and clash-free coordination across multidisciplinary projects.</p>
+  </section>
+
+  <section id="projects">
+    <h2>Featured Projects</h2>
+    <ul>
+      <li>Residential Tower NYC – BIM + Construction Docs</li>
+      <li>Office MEP Coordination – Clash Detection</li>
+      <li>Interior Fit-Out – Revit Families & Sheets</li>
+    </ul>
+  </section>
+
+  <section id="video" class="video-section">
+    <h2>Portfolio Preview Video</h2>
+    <video controls>
+      <source src="portfolio.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </section>
+
+  <section id="pdf">
+    <h2>Portfolio PDF</h2>
+    <iframe class="pdf-preview" src="Portfolio%20BIM.pdf"></iframe>
+    <p><a href="Portfolio%20BIM.pdf" download style="color:#00ffff;">Download Full Portfolio PDF</a></p>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact</h2>
+    <p>Email: info@deprojectsbim.com</p>
+    <p>Website: www.deprojectsbim.com</p>
+    <p>LinkedIn: <a href="#" style="color:#00ffff;">Your Profile</a></p>
+  </section>
+
+  <footer>
+    &copy; 2025 Deivis Escalante – BIM & Revit Solutions
+  </footer>
+
+</body>
+</html>
