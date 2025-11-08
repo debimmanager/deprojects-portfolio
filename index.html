@@ -1,114 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>DEPROJECTS | BIM Portfolio</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Segoe UI', sans-serif;
-      background-color: #111;
-      color: #f4f4f4;
-      scroll-behavior: smooth;
-    }
-    header, section {
-      padding: 60px 10%;
-    }
-    header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      border-bottom: 1px solid #333;
-    }
-    nav a {
-      color: #aaa;
-      margin-left: 20px;
-      text-decoration: none;
-    }
-    nav a:hover {
-      color: #fff;
-    }
-    h1, h2 {
-      margin-bottom: 10px;
-    }
-    .video-section video {
-      width: 100%;
-      max-width: 900px;
-      border: 1px solid #444;
-    }
-    .pdf-preview {
-      width: 100%;
-      height: 600px;
-      border: 1px solid #444;
-    }
-    .skills, .contact {
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-    }
-    footer {
-      text-align: center;
-      padding: 30px;
-      font-size: 14px;
-      color: #666;
-      border-top: 1px solid #333;
-    }
-  </style>
+    <meta charset="utf-8">
+    <title>Deivis Escalante | BIM Manager Portfolio</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="BIM, Revit, Portfolio" name="keywords">
+    <meta content="Freelance BIM Manager Portfolio" name="description">
+    <link href="img/favicon.ico" rel="icon">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet"> 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
 </head>
-<body>
 
-  <header>
-    <div>
-      <img src="logo.png" alt="DEPROJECTS Logo" style="height: 50px;" />
-    </div>
-    <nav>
-      <a href="#about">About</a>
-      <a href="#projects">Projects</a>
-      <a href="#video">Video</a>
-      <a href="#pdf">Portfolio</a>
-      <a href="#contact">Contact</a>
+<body data-spy="scroll" data-target=".navbar" data-offset="51">
+    <!-- Navbar Start -->
+    <nav class="navbar fixed-top shadow-sm navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-lg-5">
+        <a href="#home" class="navbar-brand ml-lg-3">
+            <h1 class="m-0 display-5 text-primary">DEPROJECTS</h1>
+        </a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse px-lg-3" id="navbarCollapse">
+            <div class="navbar-nav m-auto py-0">
+                <a href="#home" class="nav-item nav-link active">Home</a>
+                <a href="#about" class="nav-item nav-link">About</a>
+                <a href="#portfolio" class="nav-item nav-link">Portfolio</a>
+                <a href="#video" class="nav-item nav-link">Videos</a>
+                <a href="#contact" class="nav-item nav-link">Contact</a>
+            </div>
+        </div>
     </nav>
-  </header>
+    <!-- Navbar End -->
 
-  <section id="about">
-    <h1>Deivis Escalante</h1>
-    <p>Freelance BIM specialist with over 10 years of experience delivering Revit models, construction documentation, and clash-free coordination across multidisciplinary projects.</p>
-  </section>
+    <!-- Header Start -->
+    <div class="container-fluid bg-primary d-flex align-items-center mb-5 py-5" id="home" style="min-height: 100vh;">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-5 px-5 pb-5 pb-lg-0">
+                    <img class="img-fluid rounded-circle shadow-sm" src="Deivis.jpg" alt="Deivis Escalante">
+                </div>
+                <div class="col-lg-7 text-center text-lg-left">
+                    <h3 class="text-white mb-3">I’m</h3>
+                    <h1 class="display-3 text-uppercase text-primary mb-2">Deivis Escalante</h1>
+                    <h5 class="text-white font-weight-light">Freelance BIM Manager | Revit & MEP Specialist</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
 
-  <section id="projects">
-    <h2>Featured Projects</h2>
-    <ul>
-      <li>Residential Tower NYC – BIM + Construction Docs</li>
-      <li>Office MEP Coordination – Clash Detection</li>
-      <li>Interior Fit-Out – Revit Families & Sheets</li>
-    </ul>
-  </section>
+    <!-- About Start -->
+    <div class="container-fluid py-5" id="about">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h1 class="text-uppercase text-primary">About Me</h1>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-12">
+                    <p>I’m a forward-thinking and results-driven BIM Manager with over 9 years of experience transforming how engineering teams approach design, coordination, and construction. My professional journey has been rooted in integrating advanced Building Information Modeling (BIM) methodologies with emerging technologies, particularly Artificial Intelligence (AI), to enhance precision, collaboration, and speed across the project lifecycle.</p>
+                    <p>I specialize in leading multidisciplinary teams through the digital transformation process—from traditional CAD workflows to fully integrated BIM environments that support design automation, prefabrication, and intelligent data exchange. I’ve developed and implemented scalable BIM strategies for complex projects, particularly in the MEP and mission-critical data center sectors, ensuring that models are not just visually accurate but also data-rich, construction-ready, and lifecycle-driven.</p>
+                    <p>My work is deeply focused on operational efficiency. I actively explore the convergence of BIM and AI—using tools like PyRevit, Revit Python Shell, Dynamo, and AI-powered copilots—to automate repetitive tasks, identify design conflicts early, generate insights from BIM data, and empower teams to focus on higher-value decisions. I believe in building digital ecosystems where models are not just 3D visuals, but living databases that support design intelligence, facilities management, and strategic project delivery.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
 
-  <section id="video" class="video-section">
-    <h2>Portfolio Preview Video</h2>
-    <video controls>
-      <source src="portfolio.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
-  </section>
+    <!-- Portfolio PDF -->
+    <div class="container-fluid py-5" id="portfolio">
+        <div class="container text-center">
+            <h2 class="text-primary mb-4">Download My BIM Portfolio</h2>
+            <a href="Portfolio BIM.pdf" class="btn btn-outline-primary" download>Download PDF</a>
+        </div>
+    </div>
 
-  <section id="pdf">
-    <h2>Portfolio PDF</h2>
-    <iframe class="pdf-preview" src="Portfolio%20BIM.pdf"></iframe>
-    <p><a href="Portfolio%20BIM.pdf" download style="color:#00ffff;">Download Full Portfolio PDF</a></p>
-  </section>
+    <!-- Videos Section -->
+    <div class="container-fluid py-5" id="video">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="text-primary">Project Videos</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <video controls class="w-100">
+                        <source src="_Online Portfolio Deivis Escalante.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <video controls class="w-100">
+                        <source src="2018-08-06 - Revit MEP_4 West  Las Olas.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <video controls class="w-100">
+                        <source src="2018-08-10 17-32-09.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <video controls class="w-100">
+                        <source src="2018-10-04 THE PALACE - GENERATOR ROOM - VIDEO.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <video controls class="w-100">
+                        <source src="2020-03-10 10-40-09.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
 
-  <section id="contact" class="contact">
-    <h2>Contact</h2>
-    <p>Email: info@deprojectsbim.com</p>
-    <p>Website: www.deprojectsbim.com</p>
-    <p>LinkedIn: <a href="#" style="color:#00ffff;">Your Profile</a></p>
-  </section>
+    <!-- Contact Start -->
+    <div class="container-fluid py-5" id="contact">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="text-primary">Contact Me</h2>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-6 text-center">
+                    <p>Email: <strong>info@deprojectsbim.com</strong></p>
+                    <p>Website: <strong>www.deprojectsbim.com</strong></p>
+                    <p>LinkedIn: <a href="#" class="text-primary">Your Profile</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
 
-  <footer>
-    &copy; 2025 Deivis Escalante – BIM & Revit Solutions
-  </footer>
-
+    <!-- Footer -->
+    <footer class="container-fluid bg-dark text-white text-center py-4">
+        <p>&copy; 2025 Deivis Escalante – BIM & Revit Solutions. Built with FreeFolio Template.</p>
+    </footer>
 </body>
 </html>
